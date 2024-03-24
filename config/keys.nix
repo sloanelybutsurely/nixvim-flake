@@ -24,7 +24,7 @@
 
     { key = "<leader>w"; action = "<cmd>w<cr>"; }
     { key = "<leader>q"; action = "<cmd>q<cr>"; }
-    { key = "<esc>"; action = "<cmd>nohlsearch<cr>"; }
+    { key = "<esc>"; action = "<cmd>nohlsearch<cr>"; mode = "n"; }
 
     # root level leader commands
     {
